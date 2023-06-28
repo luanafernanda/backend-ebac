@@ -1,0 +1,31 @@
+inicio
+    // Acordar
+    abrirOlhos()
+    pegarCelular()
+    hora <- verificarHora()
+    colocarCelularNaCama()
+
+    // Ir ao banheiro
+    irBanheiro()
+    fazerNecessidades()
+
+    // Ir à cozinha
+    irCozinha()
+    pegarXicara()
+    pegarGarrafaCafe()
+    colocarCafe()
+    pegarXicaraCafe()
+
+    // Voltar para o quarto
+    irQuarto()
+    sentarCadeira()
+
+    // Verificar computador
+    se computadorLigado() então
+        estudar()
+    senao
+        ligarComputador()
+        estudar()
+    fimse
+
+fim
