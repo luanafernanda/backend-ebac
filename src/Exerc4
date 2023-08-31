@@ -1,0 +1,57 @@
+*Complexidade Assintótica*
+
+1) Pilha
+    Push():
+        Complexidade de tempo: O(1). Adicionado apena um elemento
+        ao topo da pilha o que é uma operação constante.
+        Complexidade de espaço: O(1). Usado espaço constante para criar
+        um novo nó e adicionar ao topo da pilha.
+
+    Pop():
+        Complexidade de tempo: O(1). Removenddo um elemento do topo da
+        pilha, o que pe uma operação constante
+        Complexidade de Espaço: O(1). Nao esta usando espaço adicional
+        significativo, apensa apontadores para manipular os nós.
+
+2)Fila
+    Enqueue():
+        Complexidade de tempo: O(1). Adicionado um elemento ao final da fila,
+        o que é uma operação constante graças ao apontador para a traseira.
+        Complexidade de espaço: O(1). Usado espaçoconstante para criar um novo nó.
+
+    Dequeue():
+        Complexidade de tempo: O(1). Removendo um elemento da frente da fila, o que
+        o que é uma operação constante.
+        Complexidade de Espaço: O(1). Nao esta usando espaço adicional significativo,
+        apenas apontadores para manipular os nós.
+
+    Rear() e Front():
+        Complexidade de tempo: O(1). Está apenas acessando o valor da frente
+        ou da traseira, ambos operações constantes.
+        Complexidade de espaço: O(1). Não esta usando espaço adicionado.
+
+3)Lista Encadeada
+    Push():
+        Complexidade de Tempo: O(n). No pior caso, tem que percorrer a lista toda para
+        adicionar um elemento final
+        Complexidade de espaço: O(1). Esta usando espaço constante para criar um nó
+
+    Pop():
+        Complexidade de Tempo: O(n). No pior caso, tem que percorrer a lista toda para
+        remover o último elemento.
+        Complexidade de espaço: O(1). Nao esta usando e espaço adicional significativo.
+
+    Insert(int index, Node node):
+        Complexidade de tempo: O(n). No pior caso, tem que percorrer até o indice para
+        inserir um elemento.
+        Complexidade de espaço: O(1). Esta usando espaço contante  para criar um novo nó
+
+    Remove(int index):
+        Complexidade de tempo: O(n). No pior caso, tem que percorer até o indice para
+        remover um elemento.
+        Complexidade de espaço: O(1). Não esta usando espaço adicional significativo.
+
+    ElementAt(int index):
+        Complexidade de tempo: O(n). No piordo caso, tem que percorrer até o indice para
+        acessar o elemento.
+        Complexidade de espaço: O(1). Nao esta usando espaçoa adicional significativo.
